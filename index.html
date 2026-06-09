@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho: Agronegócio Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Projeto Agrinho <span>2026</span></div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#pilares">Pilares</a>
+            <a href="#quiz">Quiz Sustentável</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Inovação e Sustentabilidade no Campo</h1>
+            <p>Alimentando o mundo hoje, protegendo o planeta para o amanhã.</p>
+            <a href="#quiz" class="btn-primary">Testar Conhecimentos</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>O que é o Agronegócio Sustentável?</h2>
+        <p>É o modelo de produção que une a alta produtividade agrícola com a preservação dos recursos naturais. Utilizando tecnologia, práticas conscientes e respeito ao meio ambiente, o campo garante o futuro das próximas gerações.</p>
+    </section>
+
+    <section id="pilares" class="cards-container">
+        <div class="card">
+            <h3>🌱 Manejo Direto</h3>
+            <p>Protege o solo contra a erosão e mantém os nutrientes da terra de forma natural.</p>
+        </div>
+        <div class="card">
+            <h3>💧 Uso da Água</h3>
+            <p>Sistemas modernos de irrigação por gotejamento que evitam o desperdício.</p>
+        </div>
+        <div class="card">
+            <h3>☀️ Energia Limpa</h3>
+            <p>Uso de painéis solares e biomassa para abastecer as fazendas do futuro.</p>
+        </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+        <h2>Desafio Agrinho</h2>
+        <p>Você sabe como funciona a sustentabilidade no campo? Descubra agora!</p>
+        
+        <div class="quiz-container">
+            <p id="pergunta">Carregando pergunta...</p>
+            <div class="options-btn">
+                <button onclick="verificarResposta(true)">Verdadeiro</button>
+                <button onclick="verificarResposta(false)">Falso</button>
+            </div>
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Criado para um futuro mais verde.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
